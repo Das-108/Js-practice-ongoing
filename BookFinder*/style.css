@@ -1,0 +1,84 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Search bar styling */
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.searchBar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.searchBar button {
+    padding: 10px 15px;
+    background-color: #4285f4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.searchBar button:hover {
+    background-color: #3367d6;
+}
+
+/* Results container */
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Book card styling */
+.verticalCard {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.verticalCard:hover {
+    transform: scale(1.03);
+}
+
+/* Book title */
+.verticalCard h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Author text */
+.verticalCard p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Book image */
+.verticalCard img {
+    max-width: 150px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 4px;
+}

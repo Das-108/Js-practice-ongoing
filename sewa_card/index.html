@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISKCON Sewa Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #d3d3e0; /* light background similar to image */
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 300px;
+            background-color: #fef9f9;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            display: flex;
+            overflow: hidden;
+        }
+
+        .side-bar {
+            background-color: #a02c2c; /* red sidebar */
+            color: white;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 16px;
+            color: #a02c2c;
+            margin-bottom: 10px;
+        }
+
+        .logo span {
+            display: block;
+            font-size: 14px;
+            color: #a02c2c;
+            margin-top: 2px;
+        }
+
+        .qr-code {
+            margin: 10px 0;
+        }
+
+        .name {
+            font-weight: bold;
+            color: #a02c2c;
+            margin-top: 10px;
+        }
+
+        .id {
+            font-size: 12px;
+            color: #555;
+            margin-top: 2px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="side-bar">Sewa Card</div>
+        <div class="main-content">
+            <div class="logo">
+                ISKCON
+                <span>NEPAL</span>
+            </div>
+            <div class="qr-code">
+                <img src="https://qrcg-free-editor.qr-code-generator.com/latest/assets/images/websiteQRCode_noFrame.png" alt="QR Code" width="100">
+            </div>
+            <div class="name">Bishal Gaihre</div>
+            <div class="id">XUN750</div>
+        </div>
+    </div>
+
+</body>
+</html>
